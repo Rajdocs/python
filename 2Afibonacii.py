@@ -6,10 +6,6 @@ def fn(n):
   else:
     return fn(n-1)+fn(n-2) 
 
-# if num > 0:
-#     print("fn(", num, ") = ",fn(num) , sep ="")
-# else:
-#     print("Error in input")
 
 
 num=int(input("enter a number :"))
